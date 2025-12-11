@@ -1,66 +1,58 @@
-@import url(./css/base.css);
+@import url(base.css);
 body{
     background:var(--color-fondo)
 }
 
-.header{
+.header-profile{
     text-align: center;
     height: 300px;
     padding: 12px;
-    background-image:url(images/download);
+    background: rgb(121, 85, 179);
+    box-shadow: 2px 2px 10px 5px rgb(141, 28, 28);
     border-radius: 20px;
     
 }    
-.avatar{
+.avatar-profile{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-.user-name{
+.user-name-profile{
     font-size: 18px;
     margin-top: 14px;
-    color: white;
+    color: rgb(15, 11, 11);
 }
-.socials{
+.socials-profile{
     list-style: none;
     text-align: center;
     padding: 0;
 }
-.socials li{
+.socials-profile li{
     display: inline-block;
     margin: 5px;
 }
-.icon{
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    background-size: cover;
-}
-.email{
-    background-image: url(images/iconos-google-iconos-gmail-ilustracion-vectorial-editable_981536-461.avif);
-}
-.facebook{
-    background-image: url(images/facebook.jpeg);
-    
-}
-.twitter{
-    background-image: url(images/twitter-2672572_1280.webp);
-}
-.card1{
+
+.card1-profile{
     text-align: center;
     background: rgb(141, 90, 189);
     color: white;
+    border: solid 1px;
+    box-shadow: 2px 2px 2px 2px red;
+   
 }
 .contenedor-profile{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
 }
-.card{
+.card-profile{
     border: solid 1px;
     background: rgb(114, 114, 134);
     border-radius: var(--border);
     padding: 10px;
     color: white;
    box-shadow: 1px 2px 2px 2px  rgb(194, 22, 22)
+}
+.img-profile{
+    width: 20px;
 }
