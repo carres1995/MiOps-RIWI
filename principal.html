@@ -1,66 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería - MiniOS</title>
-    <link rel="stylesheet" href="styles_gal.css"> 
+  <meta charset="UTF-8" />
+  <title>Gallery - MiniOS</title>
+
+  <link rel="stylesheet" href="css/styles_gal.css" />
 </head>
 
 <body>
 
-    <!-- BARRA SUPERIOR / HEADER -->
-    <header class="topbar">
-        <div class="app-title">Galería</div>
+  <input type="radio" name="filter" id="alt" checked hidden>
+  <input type="radio" name="filter" id="people" hidden>
+  <input type="radio" name="filter" id="natural" hidden>
+  <input type="radio" name="filter" id="art" hidden>
+  <input type="radio" name="filter" id="others" hidden>
 
-        <!-- Botones estilo Windows -->
-        <div class="window-controls">
-            <button class="min">—</button>
-            <button class="max">□</button>
-            <button class="close">×</button>
-        </div>
-    </header>
+  
+  <header class="topbar">
+    <div class="app-title">Gallery</div>
+  </header>
 
-    <!-- MENÚ DE CATEGORÍAS -->
-    <nav class="categories">
-        <ul>
-            <li><a href="#" class="active">Todo</a></li>
-            <li><a href="#">Personas</a></li>
-            <li><a href="#">Naturaleza</a></li>
-            <li><a href="#">Arte</a></li>
-            <li><a href="#">Otros</a></li>
-        </ul>
-    </nav>
+  <nav class="categories">
+    <ul>
+      <li><label for="alt" class="cat-label">All</label></li>
+      <li><label for="people" class="cat-label">People</label></li>
+      <li><label for="natural" class="cat-label">Natural</label></li>
+      <li><label for="art" class="cat-label">Art</label></li>
+      <li><label for="others" class="cat-label">Others</label></li>
+    </ul>
+  </nav>
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main class="gallery-container">
+  <main class="gallery-container">
 
-        <div class="gallery-item">
-            <img src="img/foto1.jpg" alt="Foto 1">
-        </div>
+    <div class="gallery-item natural">
+      <img src="img/galeria/foto1.jpeg" alt="natural 1">
+    </div>
 
-        <div class="gallery-item">
-            <img src="img/foto2.jpg" alt="Foto 2">
-        </div>
+    <div class="gallery-item people">
+      <img src="img/galeria/foto2.jpg" alt="People 1">
+    </div>
 
-        <div class="gallery-item">
-            <img src="img/foto3.jpg" alt="Foto 3">
-        </div>
+    <div class="gallery-item art">
+      <img src="img/galeria/foto3.jpg" alt="Art 1">
+    </div>
 
-        <div class="gallery-item">
-            <img src="img/foto4.jpg" alt="Foto 4">
-        </div>
+    <div class="gallery-item people">
+      <img src="img/galeria/foto4.jpg" alt="People 2">
+    </div>
 
-        <div class="gallery-item">
-            <img src="img/foto5.jpg" alt="Foto 5">
-        </div>
+    <div class="gallery-item others">
+      <img src="img/galeria/foto5.jpg" alt="others 1">
+    </div>
 
-    </main>
+  </main>
 
-    <!-- BARRA INFERIOR -->
-    <footer class="bottombar">
-        <p>MiniOS - App Galería</p>
-    </footer>
+  <footer class="bottombar">
+    <p>MiniOS - Mav Gallery</p>
+  </footer>
 
 </body>
+
 </html>
