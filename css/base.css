@@ -16,21 +16,3 @@ html,body{
     font-family: var(--texto_fuente);
     color:var(--color-texto)
 }
-section{
-    height: 200px;
-    width: 200px;
-    background: var(--cajas);
-    color: var(--color-texto-secundario);
-}
-
-div{
-    height: 100px;
-    width: 100px;
-    background: var(--color-botones);
-    
-}
-article{
-    background: var(--color-securdario);
-    height: 200px;
-    width: 200px;
-}
