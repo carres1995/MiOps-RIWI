@@ -1,0 +1,15 @@
+@import url(base.css);
+
+.inicial{
+    background-image: url(../img/fondo/fondo.avif);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.container-main{
+    height: 10px;
+    width: 1rem;
+    border-radius: var(--border);
+    background: var(--color-botones);
+    text-decoration: none;
+}
